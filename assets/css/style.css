@@ -231,6 +231,7 @@ font-weight: 700;
 }
 .name{
   color: #ff073a;
+  text-transform: uppercase;
 }
 
 
