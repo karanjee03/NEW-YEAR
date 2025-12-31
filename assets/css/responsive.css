@@ -1,0 +1,31 @@
+/* for Width Less than 1400px */
+@media (max-width: 1399.98px) {
+/* banner sect ----s */
+.brq-banner-sect .brq-banner-form {
+	padding: 30px 0px 40px 10px;
+}
+    .brq-banner-sect .brq-heading {
+	margin-bottom: 30px;
+}
+/* banner sect ----e */
+}
+/* for Width Less than 1200px */
+@media (max-width: 1199.98px) {
+
+}
+/* for Width Less than 992px */
+@media (max-width: 991.98px) {
+
+}
+/* for Width Less than 768px */
+@media (max-width: 767.98px) {
+
+}
+/* for Width Less than 577px */
+@media (max-width: 576.98px) {
+
+}
+/* for Width Less than 420px */
+@media (max-width: 419.98px) {
+
+}

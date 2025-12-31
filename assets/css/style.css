@@ -1,0 +1,240 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  --primary-font: "Berkshire Swash", serif;
+  --outfit-font: "outfit", sans-serif;
+  --pages-font: "Amaranth", sans-serif;
+
+  --bg-primary-color: #73260a;
+  --bg-white: #ffffff;
+  --bg-secondary-color: #f27c36;
+  --bg-black: #000000;
+  --bg-green-whtsapp: #22ce58;
+  --bg-sect-bg: #f1e9e6;
+  --bg-box-bg: #dfd8d5;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--outfit-font);
+  color: var(--bg-primary-color);
+  max-width: 1920px;
+  background-color: #000c1d;
+}
+
+h1,
+h2 {
+  font-family: var(--primary-font);
+  color: var(--bg-primary-color);
+}
+
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+sub {
+  bottom: 0;
+}
+
+a {
+  transition: all 0.5s ease;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  transition: all 0.3s ease-in;
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+/* Input:number inc/dec Button Remover   */
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  /* Chrome, Safari, Edge */
+  margin: 0;
+}
+
+.form-control {
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+/* Removing Accordion custom Styling --s */
+
+/* Remove background, borders, and icon styles */
+.accordion-button {
+  border: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
+  padding: 0;
+  font-weight: 400;
+  border-radius: 15px;
+}
+
+/* Remove the chevron icon */
+.accordion-button::after {
+  background: none !important;
+  content: url(../images/arrow-down.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove border and background from accordion items */
+.accordion-item {
+  border: none !important;
+  /* background: transparent !important; */
+}
+
+/* Remove border and padding from accordion body */
+.accordion-body {
+  border: none !important;
+  /* background: transparent !important; */
+  padding: 0;
+}
+
+/* Prevent hover/focus color change */
+.accordion-button:not(.collapsed) {
+  /* background: none !important; */
+  color: inherit !important;
+}
+
+/* Removing Accordion custom Styling --e */
+
+.cursor-blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
+body {
+  height: 100vh;
+  background: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #000e0d;
+}
+h1 {
+  font-size: 60px;
+  color: #00ff51;
+  text-align: center;
+  padding: 40px 0;
+  text-shadow: 0 0 70px #00ff51;
+  animation: flip 2s infinite;
+  animation-delay: 1.5s;
+}
+
+.text-effect span,
+.text-effect div {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fbff00;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.text-effect {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 10px #00f5ff, 0 0 20px #00f5ff, 0 0 30px #00f5ff,
+    0 0 40px #00f5ff, 0 0 50px #00f5ff, 0 0 60px #00f5ff, 0 0 70px #00f5ff;
+}
+
+.text-effect div.text .typing-text {
+  font-size: 46px;
+  color: #926ff5;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.msg p{
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  line-height: 29px;
+  color: #00ff51;
+font-weight: 700;
+  text-align: center;
+  border-radius: 30px;
+  position: relative;
+  margin-top: 120px;
+  padding: 40px 10px 20px;
+  text-shadow: 0 0 50px #ff073a;
+  animation: glow 2s infinite;
+}
+.name{
+  color: #ff073a;
+}
+
+
+.glcanvas{
+  width: 300px  !important;
+  height: 300px  !important;
+}
